@@ -44,7 +44,7 @@
                           <div style="text-align:center;color:#fff;" id="errores" ></div>
                           <input type="text" autofocus placeholder="Nombre Completo" id="nombre" name="nombre" maxlength="40"><br>
                           <input type="text" autofocus placeholder="Correo Electrónico" id="correo" name="correo" maxlength="40"><br>
-                          <input type="text" autofocus placeholder="Contraseña"  id="password" name="password" maxlength="40"><br>
+                          <input type="password" autofocus placeholder="Contraseña"  id="password" name="password" maxlength="40"><br>
                           
                           <input class="btn btn-success btn-lg" id="btnRegistro" type="submit" value="Regístrarse">
                       </form>
