@@ -8,21 +8,19 @@ body {
   font-size: 16px;
   }
 
+ #menu{
+  background-color: #fff;
+  width: 100%;
+  height: 70px;
+ }
  #contenedor{
  background: #212121 url(/imagenes/fondo.jpg);
-
  margin: 0 auto; 
- margin-top: 60px;
  height: 800px;
 
  } 
 
  h3{text-align: center;color:#fff;}
-
- #derecha{
-
-
- }
 
  .registro,.login{
   width: 410px;
@@ -53,4 +51,20 @@ color: #000;
 width: 450px;
 margin: 0 auto;
 margin-top: 25%;
+}
+
+#pie{
+position: absolute;
+background-color: #7A858C;
+width: 100%;
+height: 70px;
+}
+
+/*Principal*/
+#contenedor_p{
+position: relative;	
+background: #212121 url(/imagenes/fondo.jpg);
+width: 100%;
+min-height: 900px;	
+margin: 0 auto;
 }

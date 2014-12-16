@@ -1,8 +1,7 @@
 $(document).ready(function(){
 	
 $('#reg_usu')[0].reset();
-
-
+$('#log_usu')[0].reset();
 });
 
     function valCorreo( c ){
@@ -32,3 +31,25 @@ $('#reg_usu')[0].reset();
 
      return true;
 	}
+
+
+	function valLogin(){
+	 var co = $("#log_usu #corr").val();
+	 var ps = $("#log_usu #pass").val();
+	   if(co == ''){
+	   	$("#erroreslogin").html("Ingrese correo");
+             return false;
+        }else{ $("#erroreslogin").html('');}
+	   if(valCorreo(co)==false){
+             $("#erroreslogin").html("Formato de correo no valida");
+             return false;
+        }else{ $("#erroreslogin").html('');}
+        if(ps.length == 0){
+          $("#erroreslogin").html("Ingrese la contraseña");
+          return false;
+		}else{  $("#erroreslogin").html('');}
+
+     return true;
+	 }
+
+   	
