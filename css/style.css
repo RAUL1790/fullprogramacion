@@ -9,9 +9,11 @@ body {
   }
 
  #menu{
-  background-color: #fff;
+  position: fixed;	
   width: 100%;
   height: 70px;
+  margin-left: 0 auto;
+  z-index: 100;
  }
  #contenedor{
  background: #212121 url(/imagenes/fondo.jpg);

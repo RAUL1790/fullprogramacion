@@ -5,11 +5,8 @@
   <?php include('head.php'); ?>
 </head>
 <body>
-<div class="wrapper">
-<div class="row" id="menu">
- etiqueta
-</div>
 <div class="container-fluid" id="contenedor">
+<div class="row" id="menu"> <?php include('nav.php'); ?></div>
    <div class="row">
      	<div class="col-md-7" >
 
@@ -55,9 +52,6 @@
      </div><!-- row -->
    
 </div><!-- contenedor -->
-
-
-</div><!-- wrapper -->
 
 
 <?php include('footer.php'); ?>
