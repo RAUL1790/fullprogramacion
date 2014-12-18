@@ -7,7 +7,7 @@
 <body>
 <div class="container-fluid" id="contenedor">
 <div class="row" id="menu"> <?php include('nav.php'); ?></div>
-   <div class="row">
+   <div class="row" id="cont">
      	<div class="col-md-7" >
 
 

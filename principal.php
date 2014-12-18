@@ -9,13 +9,13 @@
 
  <div class="container-fluid" id="contenedor_p">
  <div class="row" id="menu"> <?php include('nav.php'); ?></div>
-  <div class="row">
-    <div class="col-md-2">
+  <div class="row" id="cont">
+    <div class="col-md-1">
        
-
+    <?php include('temas.php'); ?>
 
     </div><!-- col-md-2 -->
-    <div class="col-md-8"></div><!-- col-md-8 -->
+    <div class="col-md-9"></div><!-- col-md-8 -->
     <div class="col-md-2"></div><!-- col-md-2 -->
 
 
